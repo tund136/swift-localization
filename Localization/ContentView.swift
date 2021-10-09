@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let helloWorld: LocalizedStringKey = "hello_world"
+    let hey: LocalizedStringKey = "hey"
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text(hey)
+            Text(helloWorld)
+                .padding()
+        }
     }
 }
 

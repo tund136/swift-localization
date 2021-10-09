@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Danh Tu on 09/10/2021.
+  
+*/
+
+"hello_world" = "こんにちは世界!"
+"Hey!" = "おい！"
